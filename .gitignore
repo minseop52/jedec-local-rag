@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Private documents
+data/sample_private/
+data/raw/
+*.pdf
+
+# Local vector DB / generated artifacts
+storage/
+outputs/
+
+# Environment
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
