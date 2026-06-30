@@ -229,10 +229,7 @@ Private PDFs should be stored only in local directories such as:
 ```text
 data/sample_private/
 data/raw/
-
-
 ```
-
 
 
 
@@ -455,23 +452,25 @@ Citation-grounded Answer
 ## 6. Current Status
 프로젝트 초기화 완료.
 
-[x] GitHub 저장소 생성
-[x] 프로젝트 디렉토리 구조 생성
-[x] 개인 PDF 파일을 위한 .gitignore 설정
-[x] 초기 README 작성
-[ ] PDF 파싱 프로토타입 개발
-[ ] 청킹(Chunking) 파이프라인 구축
-[ ] 임베딩 파이프라인 구축
-[ ] 벡터 데이터베이스 연동
-[ ] 하이브리드 검색(Hybrid Retrieval) 구현
-[ ] 로컬 LLM 연동
-[ ] 평가 데이터셋(Evaluation set) 구축
-[ ] 로컬 UI 개발
+- [x] GitHub 저장소 생성
+- [x] 프로젝트 디렉토리 구조 생성
+- [x] 개인 PDF 파일을 위한 .gitignore 설정
+- [x] 초기 README 작성
+- [ ] PDF 파싱 프로토타입 개발
+- [ ] 청킹(Chunking) 파이프라인 구축
+- [ ] 임베딩 파이프라인 구축
+- [ ] 벡터 데이터베이스 연동
+- [ ] 하이브리드 검색(Hybrid Retrieval) 구현
+- [ ] 로컬 LLM 연동
+- [ ] 평가 데이터셋(Evaluation set) 구축
+- [ ] 로컬 UI 개발
 
 ## 7. Repository Policy
 본 저장소에는 저작권이 있는 JEDEC 문서, 기밀 문서 또는 회사 내부 문서를 포함하지 않습니다.
 
 개인 기술 PDF 문서는 오직 다음과 같은 로컬 디렉토리에만 저장해야 합니다:
 
+```text
 data/sample_private/
 data/raw/
+```
